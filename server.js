@@ -33,6 +33,13 @@ server.route({
     handler: Bot.webhookValidation
 })
 
+// Message processing
+server.route({
+    method: 'POST',
+    path:'/webhook',
+    handler: Bot.parseMessage
+})
+
 // Start the server
 server.start((err) => {
 

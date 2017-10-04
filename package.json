@@ -10,12 +10,14 @@
     "url": "git+https://github.com:kikerios/hello-bot.git"
   },
   "dependencies": {
+    "bluebird": "^3.5.0",
     "boom": "^6.0.0",
     "bucker": "^1.1.1",
     "confidence": "^3.0.2",
     "dotenv": "^4.0.0",
     "hapi": "^11.1.4",
     "lodash": "^4.17.4",
+    "request": "^2.83.0",
     "to-boolean": "^1.0.0"
   },
   "scripts": {
