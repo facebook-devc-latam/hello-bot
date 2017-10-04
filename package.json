@@ -10,7 +10,12 @@
     "url": "git+https://github.com:kikerios/hello-bot.git"
   },
   "dependencies": {
-    "hapi": "11.x.x"
+    "bucker": "^1.1.1",
+    "confidence": "^3.0.2",
+    "dotenv": "^4.0.0",
+    "hapi": "^11.1.4",
+    "lodash": "^4.17.4",
+    "to-boolean": "^1.0.0"
   },
   "scripts": {
     "start": "node server.js"
