@@ -11,7 +11,7 @@ Hello Bot!
 ----------------
 Download github project and install dependencies
 
-    git clone origin git@github.com:kikerios/hello-bot.git
+    git clone git@github.com:kikerios/hello-bot.git
     cd hello-bot
     npm install
 
