@@ -21,7 +21,6 @@ server.route({
     method: 'GET',
     path:'/',
     handler: function (request, reply) {
-
         return reply('hello bot')
     }
 })
@@ -42,7 +41,6 @@ server.route({
 
 // Start the server
 server.start((err) => {
-
     if (err) {
         throw err
     }

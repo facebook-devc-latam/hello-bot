@@ -1,0 +1,34 @@
+{
+  "id": "9f1a81b6-630c-c502-8fc4-cf4763d6ada0",
+  "name": "hello bot environment",
+  "values": [
+    {
+      "enabled": true,
+      "key": "ngrok",
+      "value": "PASTE_YOUR_NGROK_HTTPS_URL",
+      "type": "text"
+    },
+    {
+      "enabled": true,
+      "key": "user_id",
+      "value": "PASTE_YOUR_USER_ID",
+      "type": "text"
+    },
+    {
+      "enabled": true,
+      "key": "page_id",
+      "value": "PASTE_YOUR_PAGE_ID",
+      "type": "text"
+    },
+    {
+      "enabled": true,
+      "key": "page_access_token",
+      "value": "PASTE_YOUR_PAGE_ACCESS_TOKEN",
+      "type": "text"
+    }
+  ],
+  "timestamp": 1507163654920,
+  "_postman_variable_scope": "environment",
+  "_postman_exported_at": "2017-10-05T02:13:09.283Z",
+  "_postman_exported_using": "Postman/5.2.1"
+}

@@ -2,12 +2,12 @@
   "name": "hello-bot",
   "version": "1.0.0",
   "description": "A starting point for messenger bot project",
-  "author": "Kike Rios <web.lrios@gmail.com>",
+  "author": "yalo <eng@yalochat.com>",
   "license": "MIT",
   "main": "server",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com:kikerios/hello-bot.git"
+    "url": "git+https://github.com/devcfacebook/hello-bot.git"
   },
   "dependencies": {
     "bluebird": "^3.5.0",

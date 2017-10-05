@@ -11,7 +11,7 @@ Hello Bot!
 ----------------
 Download github project and install dependencies
 
-    git clone git@github.com:kikerios/hello-bot.git
+    git clone git@github.com:devcfacebook/hello-bot.git
     cd hello-bot
     npm install
 
@@ -143,4 +143,4 @@ Import Postman Environment
       "_postman_exported_using": "Postman/5.2.1"
     }
 
-with ❤ by [@kikerios](https://github.com/kikerios)
+with ❤ by [@yalochat](https://github.com/yalochat)
