@@ -100,10 +100,9 @@ Postman
 **Postman Collections**
 -------------------
 Import Postman Collections
-| Collection | URL |
-| ------ | ------ |
-| Hello Bot Webhooks | https://www.getpostman.com/collections/14e5e9f8e9dba3dc4dd2 |
-| Hello Bot Templates | https://www.getpostman.com/collections/2ec55a57de19c9959c8b |
+
+ - Hello Bot Webhooks  | https://goo.gl/RWVsV9
+ - Hello Bot Templates | https://goo.gl/sBdL6h 
 
 **Postman Environment**
 -------------------
