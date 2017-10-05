@@ -7,8 +7,6 @@ const Logger = require('bucker').createLogger({
   console: Config.get('/logger/options/console')
 })
 
-const Bot = require('./lib/bot')
-
 // Create a server with a host and port
 const server = new Hapi.Server()
 server.connection({
@@ -21,28 +19,12 @@ server.route({
     method: 'GET',
     path:'/',
     handler: function (request, reply) {
-
         return reply('hello bot')
     }
 })
 
-// Webhook validation
-server.route({
-    method: 'GET',
-    path:'/webhook',
-    handler: Bot.webhookValidation
-})
-
-// Message processing
-server.route({
-    method: 'POST',
-    path:'/webhook',
-    handler: Bot.parseMessage
-})
-
 // Start the server
 server.start((err) => {
-
     if (err) {
         throw err
     }

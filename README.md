@@ -143,4 +143,4 @@ Import Postman Environment
       "_postman_exported_using": "Postman/5.2.1"
     }
 
-with ❤ by [@kikerios](https://github.com/kikerios)
+with ❤ by [@yalochat](https://github.com/yalochat)

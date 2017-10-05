@@ -11,13 +11,7 @@ const config = {
     app: {
       host: process.env.APP_HOST || 'localhost',
       port: process.env.APP_PORT || 3500
-    },
-    fbMessenger: {
-      token: process.env.VERIFY_TOKEN || 'h3ll0-Bot',
-      accessToken: process.env.PAGE_ACCESS_TOKEN,
-      apiMessages: process.env.FB_API_MESSAGE || 'https://graph.facebook.com/v2.6/me/messages',
-      apiUrl:  process.env.FB_API_URL || 'https://graph.facebook.com/v2.6'
-    },
+    },    
     logger: {
         options: {
             console: ToBoolean(_.defaultTo(process.env.LOGGER_DEBUG, true))
